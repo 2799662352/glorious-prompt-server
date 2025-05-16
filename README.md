@@ -8,7 +8,7 @@ The system is configured through `settings.json`:
 "mcp": {
     "inputs": [],
     "servers": {
-        "godot_rag": { // or whatever name you want
+        "prompt_rag": { // or whatever name you want
             "command": "cmd", // replace this with "uv" on Mac or Linux
             "args": [
                 "/c", // remove this on Mac or Linux
@@ -16,9 +16,9 @@ The system is configured through `settings.json`:
                 "run",
                 "path to the server script 'server.py'", // C:\\dev\\rag-mcp\\server.py
                 "-d",
-                "path to the chroma_db on your computer", // C:\\dev\\web2embeddings\\artifacts\\vector_stores\\chroma_db
+                "path to the chroma_db on your computer", // C:\\dev\\prompt_rag\\artifacts\\vector_stores\\chroma_db
                 "-c",
-                "name of the collection in the chroma_db" // godotengine_chunks_SZ_400_O_20_all-MiniLM-L6-v2
+                "name of the collection in the chroma_db" // yournane_chunks_SZ_400_O_20_all-MiniLM-L6-v2
             ]
         }
     }
