@@ -1,0 +1,6 @@
+{
+  "server_script": "prompt_server.py",
+  "chromadb_path": "D:/tscrag/prompt_rag/artifacts/vector_stores/chroma_db",
+  "collection_name": "prompt_markdown_chunks_SZ_400_O_20_all-MiniLM-L6-v2",
+  "log_file": "logs/server_output.log"
+}
