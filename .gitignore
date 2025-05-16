@@ -1,0 +1,28 @@
+# 字节编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+venv/
+env/
+ENV/
+
+# 分发/打包
+dist/
+build/
+*.egg-info/
+
+# 日志
+logs/
+*.log
+
+# 开发工具
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 特定项目文件
+.env
+uv.lock
